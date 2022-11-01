@@ -17,6 +17,11 @@ $font-medium: 16px;
 $font-large: 22px;
 $font-Xlarge: 28px;
 
+$font-thin: 300;
+$font-normal: 400;
+$font-semiBold: 500;
+$font-bold: 700;
+
 // Mixins
 @mixin anchor($color: $color-Black) {
     text-decoration: none;
@@ -26,7 +31,7 @@ $font-Xlarge: 28px;
 
 @mixin buttonStyle($color: $color-Black, $bg-color: $color-White) {
     background-color: $bg-color;
-    font-size: $font-normal;
+    font-size: $font-medium;
     font-family: $font-family;
     text-transform: capitalize;
     border: 1px solid black;
@@ -39,11 +44,6 @@ $font-Xlarge: 28px;
         background-color: $color;
         color: $bg-color;
     }
-}
-
-@mixin test {
-    background: #000;
-    color: white
 }
 
 @mixin listStyles {
