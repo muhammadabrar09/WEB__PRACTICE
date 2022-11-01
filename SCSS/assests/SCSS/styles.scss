@@ -19,6 +19,8 @@ body {
 
     header {
         width: 100%;
+        position: fixed;
+        z-index: 100;
 
         .header__top {
             background-color: $color-darkBlue;
@@ -108,5 +110,63 @@ body {
         }
     }
 
+    main {
+        width: 100%;
+        position: relative;
+        top: 100px;
+        z-index: 1;
 
+        // Hero Section
+        .hero {
+            width: 100%;
+            height: calc(100vh - 100px);
+            background: url(../images/hero.jpg) no-repeat center center/cover;
+
+            .heroContent {
+                width: 100%;
+                height: 100%;
+                @include flexCenter;
+                flex-direction: column;
+
+                h3 {
+                    color: $color-White;
+                    font-size: $font-large * 1.5;
+                    letter-spacing: 2px;
+                    text-shadow: 0 1px 3px $color-Black;
+                }
+
+                h1 {
+                    color: $color-White;
+                    font-size: $font-Xlarge * 2.5;
+                    font-weight: $font-bold;
+                    letter-spacing: 3px;
+                    text-shadow: 0 1px 3px $color-Black;
+                }
+
+                form {
+                    input {
+                        @include inputStyle;
+                        &:focus {
+                            border: 1px solid $color-White;
+                            background-color: $color-Black;
+                            color: $color-White;
+                        }
+                    }
+
+                    button {
+                        @include buttonStyle($color: $color-White, $bg-color: $color-lightRed);
+                        border: 1px solid $color-lightRed;
+
+                        &:hover {
+                            background-color: $color-Black;
+                            color: $color-White;
+                            border: 1px solid $color-Black;
+                        }
+                    }
+                }
+            }
+        }
+
+        
+    }
 }

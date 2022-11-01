@@ -19,6 +19,8 @@ body {
 }
 body header {
   width: 100%;
+  position: fixed;
+  z-index: 100;
 }
 body header .header__top {
   background-color: #120f2d;
@@ -99,4 +101,75 @@ body header nav .nav_contact a:hover {
 body header nav .nav_contact a:hover {
   background-color: #ffffff;
   color: #276ed7;
+}
+body main {
+  width: 100%;
+  position: relative;
+  top: 100px;
+  z-index: 1;
+}
+body main .hero {
+  width: 100%;
+  height: calc(100vh - 100px);
+  background: url(../images/hero.jpg) no-repeat center center/cover;
+}
+body main .hero .heroContent {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+body main .hero .heroContent h3 {
+  color: #ffffff;
+  font-size: 33px;
+  letter-spacing: 2px;
+  text-shadow: 0 1px 3px #111111;
+}
+body main .hero .heroContent h1 {
+  color: #ffffff;
+  font-size: 70px;
+  font-weight: 700;
+  letter-spacing: 3px;
+  text-shadow: 0 1px 3px #111111;
+}
+body main .hero .heroContent form input {
+  width: 350px;
+  background-color: #ffffff;
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+  text-transform: capitalize;
+  border: 1px solid black;
+  outline: none;
+  color: #111111;
+  border-radius: 5px;
+  padding: 0.4rem 0.8rem;
+  cursor: pointer;
+}
+body main .hero .heroContent form input:focus {
+  border: 1px solid #ffffff;
+  background-color: #111111;
+  color: #ffffff;
+}
+body main .hero .heroContent form button {
+  background-color: #f14d5d;
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+  text-transform: capitalize;
+  border: 1px solid black;
+  color: #ffffff;
+  border-radius: 5px;
+  padding: 0.4rem 0.8rem;
+  cursor: pointer;
+  border: 1px solid #f14d5d;
+}
+body main .hero .heroContent form button:hover {
+  background-color: #ffffff;
+  color: #f14d5d;
+}
+body main .hero .heroContent form button:hover {
+  background-color: #111111;
+  color: #ffffff;
+  border: 1px solid #111111;
 }/*# sourceMappingURL=styles.css.map */
