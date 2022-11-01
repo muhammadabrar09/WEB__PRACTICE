@@ -146,6 +146,7 @@ body main .hero .heroContent form input {
   border-radius: 5px;
   padding: 0.4rem 0.8rem;
   cursor: pointer;
+  box-shadow: 0 1px 3px #111111;
 }
 body main .hero .heroContent form input:focus {
   border: 1px solid #ffffff;
@@ -163,6 +164,7 @@ body main .hero .heroContent form button {
   padding: 0.4rem 0.8rem;
   cursor: pointer;
   border: 1px solid #f14d5d;
+  box-shadow: 0 1px 3px #111111;
 }
 body main .hero .heroContent form button:hover {
   background-color: #ffffff;

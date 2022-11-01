@@ -146,6 +146,7 @@ body {
                 form {
                     input {
                         @include inputStyle;
+                        box-shadow: 0 1px 3px $color-Black;
                         &:focus {
                             border: 1px solid $color-White;
                             background-color: $color-Black;
@@ -156,6 +157,7 @@ body {
                     button {
                         @include buttonStyle($color: $color-White, $bg-color: $color-lightRed);
                         border: 1px solid $color-lightRed;
+                        box-shadow: 0 1px 3px $color-Black;
 
                         &:hover {
                             background-color: $color-Black;
@@ -166,7 +168,5 @@ body {
                 }
             }
         }
-
-        
     }
 }
