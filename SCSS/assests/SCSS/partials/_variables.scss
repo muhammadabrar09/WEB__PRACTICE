@@ -13,9 +13,10 @@ $color-Yellow: #ffc107;
 $font-family: "Poppins", sans-serif;
 
 $font-small: 13px;
-$font-normal: 16px;
+$font-medium: 16px;
 $font-large: 22px;
 
+// Mixins
 @mixin anchor($color: $color-Black) {
     text-decoration: none;
     color: $color;
@@ -26,6 +27,7 @@ $font-large: 22px;
     background-color: $bg-color;
     font-size: $font-normal;
     font-family: $font-family;
+    text-transform: capitalize;
     border: 1px solid black;
     color: $color;
     border-radius: 5px;

@@ -14,7 +14,7 @@ a {
 
 body {
     font-family: $font-family;
-    font-size: $font-normal;
+    font-size: $font-medium;
     color: $color-Black;
 
     header {
@@ -23,24 +23,42 @@ body {
         .header__top {
             background-color: $color-darkBlue;
             color: $color-White;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
             padding: 0.3rem 1rem;
 
-            .contact_links {
-                a {
-                    @include anchor($color-White);
-                    font-size: $font-small;
+            a {
+                color: $color-White;
+
+                i {
+                    font-size: $font-medium;
                 }
+            }
+
+            .contact_links {
+                display: flex;
+                gap: 1.5rem;
+
+                a {
+                    font-size: $font-small;
+
+                    i {
+                        font-size: $font-small;
+                        margin-right: 0.5rem;
+                    }
+                }
+            }
+
+            .social_links{
+                display: flex;
+                gap: .8rem;
+                margin-right: 2rem;
             }
         }
 
-        nav {
-            height: 60px;
-            background-color: $color-White;
-            color: $color-Black;
-
-            button {
-                @include button;
-            }
+        nav{
+            
         }
     }
 }

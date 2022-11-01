@@ -23,30 +23,30 @@ body header {
 body header .header__top {
   background-color: #120f2d;
   color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   padding: 0.3rem 1rem;
 }
-body header .header__top .contact_links a {
-  text-decoration: none;
+body header .header__top a {
   color: #ffffff;
-  cursor: pointer;
+}
+body header .header__top a i {
+  font-size: 16px;
+}
+body header .header__top .contact_links {
+  display: flex;
+  gap: 1.5rem;
+}
+body header .header__top .contact_links a {
   font-size: 13px;
 }
-body header nav {
-  height: 60px;
-  background-color: #ffffff;
-  color: #111111;
+body header .header__top .contact_links a i {
+  font-size: 13px;
+  margin-right: 0.5rem;
 }
-body header nav button {
-  background-color: #ffffff;
-  font-size: 16px;
-  font-family: "Poppins", sans-serif;
-  border: 1px solid black;
-  color: #111111;
-  border-radius: 5px;
-  padding: 0.4rem 0.8rem;
-  cursor: pointer;
-}
-body header nav button:hover {
-  background-color: #111111;
-  color: #ffffff;
+body header .header__top .social_links {
+  display: flex;
+  gap: 0.8rem;
+  margin-right: 2rem;
 }/*# sourceMappingURL=styles.css.map */
