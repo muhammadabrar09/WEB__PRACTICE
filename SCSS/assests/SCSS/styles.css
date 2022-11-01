@@ -53,7 +53,7 @@ body header .header__top .social_links {
 body header nav {
   width: 100%;
   background-color: #ffffff;
-  color: #120f2d;
+  color: #276ed7;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -76,27 +76,27 @@ body header nav .navItems ul li a {
   color: #120f2d;
 }
 body header nav .navItems ul li a:hover {
-  border-bottom: 3px solid #120f2d;
-  transition: 0.2s;
+  border-bottom: 2px solid #276ed7;
+  transition: none;
 }
 body header nav .nav_contact a {
-  background-color: #28a745;
+  background-color: #276ed7;
   font-size: 16px;
   font-family: "Poppins", sans-serif;
   text-transform: capitalize;
   border: 1px solid black;
-  color: #120f2d;
+  color: #ffffff;
   border-radius: 5px;
   padding: 0.4rem 0.8rem;
   cursor: pointer;
-  border: 1px solid #28a745;
+  border: 1px solid #276ed7;
   font-weight: 500;
 }
 body header nav .nav_contact a:hover {
-  background-color: #120f2d;
-  color: #28a745;
+  background-color: #ffffff;
+  color: #276ed7;
 }
 body header nav .nav_contact a:hover {
-  background-color: #138e30;
-  color: #120f2d;
+  background-color: #ffffff;
+  color: #276ed7;
 }/*# sourceMappingURL=styles.css.map */
