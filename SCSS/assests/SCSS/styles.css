@@ -6,9 +6,15 @@
   transition: 0.5s ease-in-out;
 }
 
+a {
+  text-decoration: none;
+  color: #111111;
+  cursor: pointer;
+}
+
 body {
   font-family: "Poppins", sans-serif;
-  font-size: 17px;
+  font-size: 16px;
   color: #111111;
 }
 body header {
@@ -16,5 +22,31 @@ body header {
 }
 body header .header__top {
   background-color: #120f2d;
-  height: 30px;
+  color: #ffffff;
+  padding: 0.3rem 1rem;
+}
+body header .header__top .contact_links a {
+  text-decoration: none;
+  color: #ffffff;
+  cursor: pointer;
+  font-size: 13px;
+}
+body header nav {
+  height: 60px;
+  background-color: #ffffff;
+  color: #111111;
+}
+body header nav button {
+  background-color: #ffffff;
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+  border: 1px solid black;
+  color: #111111;
+  border-radius: 5px;
+  padding: 0.4rem 0.8rem;
+  cursor: pointer;
+}
+body header nav button:hover {
+  background-color: #111111;
+  color: #ffffff;
 }/*# sourceMappingURL=styles.css.map */

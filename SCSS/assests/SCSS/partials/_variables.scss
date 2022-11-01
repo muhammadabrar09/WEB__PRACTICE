@@ -2,7 +2,7 @@
 
 // Color Variables
 $color-White: #ffffff;
-$color-Black : #111111;
+$color-Black: #111111;
 $color-darkBlue: #120f2d;
 $color-skyBlue: #276ed7;
 $color-lightGreen: #28a745;
@@ -12,7 +12,32 @@ $color-Yellow: #ffc107;
 // Font Variables
 $font-family: "Poppins", sans-serif;
 
-$font-normal: 17px;
-$font-medium: 20px;
-$font-large: 25px;
+$font-small: 13px;
+$font-normal: 16px;
+$font-large: 22px;
 
+@mixin anchor($color: $color-Black) {
+    text-decoration: none;
+    color: $color;
+    cursor: pointer;
+}
+
+@mixin button($color: $color-Black, $bg-color: $color-White) {
+    background-color: $bg-color;
+    font-size: $font-normal;
+    font-family: $font-family;
+    border: 1px solid black;
+    color: $color;
+    border-radius: 5px;
+    padding: 0.4rem 0.8rem;
+    cursor: pointer;
+
+    &:hover {
+        background-color: $color;
+        color: $bg-color;
+    }
+}
+
+@mixin listStyles {
+    list-style: none;
+}
