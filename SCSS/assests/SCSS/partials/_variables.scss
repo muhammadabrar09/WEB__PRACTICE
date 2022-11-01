@@ -15,6 +15,7 @@ $font-family: "Poppins", sans-serif;
 $font-small: 13px;
 $font-medium: 16px;
 $font-large: 22px;
+$font-Xlarge: 28px;
 
 // Mixins
 @mixin anchor($color: $color-Black) {
@@ -23,7 +24,7 @@ $font-large: 22px;
     cursor: pointer;
 }
 
-@mixin button($color: $color-Black, $bg-color: $color-White) {
+@mixin buttonStyle($color: $color-Black, $bg-color: $color-White) {
     background-color: $bg-color;
     font-size: $font-normal;
     font-family: $font-family;
@@ -40,6 +41,13 @@ $font-large: 22px;
     }
 }
 
+@mixin test {
+    background: #000;
+    color: white
+}
+
 @mixin listStyles {
     list-style: none;
+    display: flex;
+    gap: 1rem;
 }

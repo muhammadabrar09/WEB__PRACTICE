@@ -49,4 +49,34 @@ body header .header__top .social_links {
   display: flex;
   gap: 0.8rem;
   margin-right: 2rem;
+}
+body header nav {
+  width: 100%;
+  height: 70px;
+  background-color: #ffc107;
+  color: #120f2d;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 1rem;
+}
+body header nav .logo {
+  display: flex;
+  align-items: center;
+}
+body header nav .logo i {
+  font-size: 28px;
+  margin-right: 0.3rem;
+}
+body header nav .navItems ul {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+}
+body header nav .navItems ul li a {
+  color: #120f2d;
+}
+body header nav .navContact a {
+  background: #000;
+  color: white;
 }/*# sourceMappingURL=styles.css.map */
