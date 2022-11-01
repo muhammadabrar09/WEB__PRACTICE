@@ -1,13 +1,24 @@
 // Import files from the SCSS folder
 @import "./partials/variables";
 
-
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    transition: 0.5s ease-in-out;
 }
 
 body {
     font-family: $font-family;
+    font-size: $font-normal;
+    color: $color-Black;
+
+    header {
+        width: 100%;
+
+        .header__top {
+            background-color: $color-darkBlue;
+            height: 30px;
+        }
+    }
 }
