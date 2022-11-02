@@ -301,7 +301,7 @@ body {
                                     background-color: $color-lightRed;
                                 }
 
-                                .classesIcon{
+                                .classesIcon {
                                     background-color: $color-Yellow;
                                 }
                             }
@@ -313,7 +313,7 @@ body {
                                     font-size: $font-large;
                                     color: $color-darkBlue;
                                 }
-                                p{
+                                p {
                                     font-size: $font-small + 2;
                                 }
                             }
@@ -331,6 +331,25 @@ body {
                         height: 100%;
                         padding: 0 4rem;
                     }
+                }
+            }
+        }
+
+        // Our Courses Section
+        .courses {
+            @include section;
+            padding-top: 2rem * 3;
+
+            .coursesTop {
+                width: 100%;
+                text-align: center;
+
+                .title {
+                    @include sectionTitle;
+                }
+
+                .heading {
+                    @include sectionHeading;
                 }
             }
         }
