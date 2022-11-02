@@ -8,6 +8,10 @@
     transition: 0.5s ease-in-out;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 a {
     @include anchor;
 }
@@ -163,6 +167,80 @@ body {
                             background-color: $color-Black;
                             color: $color-White;
                             border: 1px solid $color-Black;
+                        }
+                    }
+                }
+            }
+        }
+
+        // About Section
+        .about {
+            @include section;
+
+            .aboutContent {
+                display: flex;
+                padding: 2rem 4rem;
+
+                .aboutImage {
+                    width: 100%;
+                    height: 80vh;
+                    flex: 1;
+
+                    img {
+                        width: 100%;
+                        height: 100%;
+                        object-fit: cover;
+                    }
+                }
+
+                .aboutDetails {
+                    width: 100%;
+                    flex: 1;
+                    padding-left: 2rem;
+
+                    .title {
+                        @include sectionTitle;
+                    }
+
+                    .sectionHeading {
+                        @include sectionHeading;
+                    }
+
+                    .description {
+                        @include sectionDescription;
+                    }
+
+                    .couresesDetails {
+                        display: flex;
+                        margin-top: 2rem;
+
+                        .detail {
+                            background-color: $color-lightGreen;
+                            color: $color-White;
+                            padding: 2rem;
+                            
+                            h1 {
+                                font-size: $font-Xlarge * 1.2;
+                                background: none;
+                            }
+
+                            p {
+                                font-weight: $font-semiBold;
+                                background: none;
+                                text-transform: uppercase;
+                            }
+                        }
+
+                        :nth-child(2) {
+                            background-color: $color-skyBlue;
+                        }
+
+                        :nth-child(3) {
+                            background-color: $color-lightRed;
+                        }
+
+                        :nth-child(4) {
+                            background-color: $color-Yellow;
                         }
                     }
                 }

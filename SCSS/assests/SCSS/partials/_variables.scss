@@ -2,7 +2,8 @@
 
 // Color Variables
 $color-White: #ffffff;
-$color-Black: #111111;
+$color-Black: #181818b0;
+$color-pureBlack: #000000;
 $color-darkBlue: #120f2d;
 $color-skyBlue: #276ed7;
 $color-lightGreen: #28a745;
@@ -22,7 +23,7 @@ $font-normal: 400;
 $font-semiBold: 500;
 $font-bold: 700;
 
-// Mixins
+// Style Classes
 @mixin anchor($color: $color-Black) {
     text-decoration: none;
     color: $color;
@@ -34,7 +35,7 @@ $font-bold: 700;
     font-size: $font-medium;
     font-family: $font-family;
     text-transform: capitalize;
-    border: 1px solid black;
+    border: 1px solid $color-pureBlack;
     color: $color;
     border-radius: 5px;
     padding: 0.4rem 0.8rem;
@@ -58,7 +59,7 @@ $font-bold: 700;
     font-size: $font-medium;
     font-family: $font-family;
     text-transform: capitalize;
-    border: 1px solid black;
+    border: 1px solid $color-pureBlack;
     outline: none;
     color: $color;
     border-radius: 5px;
@@ -70,4 +71,41 @@ $font-bold: 700;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+@mixin flexColumnCenter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+@mixin section {
+    width: 100%;
+    height: calc(100vh - 100px);
+}
+
+@mixin sectionTitle {
+    color: $color-lightRed;
+    font-size: $font-medium + 4;
+    font-weight: $font-semiBold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    border-bottom: 2px dashed $color-lightRed;
+}
+
+@mixin sectionHeading {
+    color: $color-darkBlue;
+    font-size: $font-Xlarge * 1.5;
+    font-weight: $font-bold;
+    text-transform: capitalize;
+    letter-spacing: 3px;
+    margin: 1rem 0;
+}
+
+@mixin sectionDescription {
+    color: $color-Black;
+    font-size: $font-medium + 2;
+    font-weight: $font-normal;
+    letter-spacing: 1px;
 }

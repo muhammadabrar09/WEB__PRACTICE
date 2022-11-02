@@ -6,16 +6,20 @@
   transition: 0.5s ease-in-out;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 a {
   text-decoration: none;
-  color: #111111;
+  color: rgba(24, 24, 24, 0.6901960784);
   cursor: pointer;
 }
 
 body {
   font-family: "Poppins", sans-serif;
   font-size: 16px;
-  color: #111111;
+  color: rgba(24, 24, 24, 0.6901960784);
 }
 body header {
   width: 100%;
@@ -86,7 +90,7 @@ body header nav .nav_contact a {
   font-size: 16px;
   font-family: "Poppins", sans-serif;
   text-transform: capitalize;
-  border: 1px solid black;
+  border: 1px solid #000000;
   color: #ffffff;
   border-radius: 5px;
   padding: 0.4rem 0.8rem;
@@ -125,14 +129,14 @@ body main .hero .heroContent h3 {
   color: #ffffff;
   font-size: 33px;
   letter-spacing: 2px;
-  text-shadow: 0 1px 3px #111111;
+  text-shadow: 0 1px 3px rgba(24, 24, 24, 0.6901960784);
 }
 body main .hero .heroContent h1 {
   color: #ffffff;
   font-size: 70px;
   font-weight: 700;
   letter-spacing: 3px;
-  text-shadow: 0 1px 3px #111111;
+  text-shadow: 0 1px 3px rgba(24, 24, 24, 0.6901960784);
 }
 body main .hero .heroContent form input {
   width: 350px;
@@ -140,17 +144,17 @@ body main .hero .heroContent form input {
   font-size: 16px;
   font-family: "Poppins", sans-serif;
   text-transform: capitalize;
-  border: 1px solid black;
+  border: 1px solid #000000;
   outline: none;
-  color: #111111;
+  color: rgba(24, 24, 24, 0.6901960784);
   border-radius: 5px;
   padding: 0.4rem 0.8rem;
   cursor: pointer;
-  box-shadow: 0 1px 3px #111111;
+  box-shadow: 0 1px 3px rgba(24, 24, 24, 0.6901960784);
 }
 body main .hero .heroContent form input:focus {
   border: 1px solid #ffffff;
-  background-color: #111111;
+  background-color: rgba(24, 24, 24, 0.6901960784);
   color: #ffffff;
 }
 body main .hero .heroContent form button {
@@ -158,20 +162,93 @@ body main .hero .heroContent form button {
   font-size: 16px;
   font-family: "Poppins", sans-serif;
   text-transform: capitalize;
-  border: 1px solid black;
+  border: 1px solid #000000;
   color: #ffffff;
   border-radius: 5px;
   padding: 0.4rem 0.8rem;
   cursor: pointer;
   border: 1px solid #f14d5d;
-  box-shadow: 0 1px 3px #111111;
+  box-shadow: 0 1px 3px rgba(24, 24, 24, 0.6901960784);
 }
 body main .hero .heroContent form button:hover {
   background-color: #ffffff;
   color: #f14d5d;
 }
 body main .hero .heroContent form button:hover {
-  background-color: #111111;
+  background-color: rgba(24, 24, 24, 0.6901960784);
   color: #ffffff;
-  border: 1px solid #111111;
+  border: 1px solid rgba(24, 24, 24, 0.6901960784);
+}
+body main .about {
+  width: 100%;
+  height: calc(100vh - 100px);
+}
+body main .about .aboutContent {
+  display: flex;
+  padding: 2rem 4rem;
+}
+body main .about .aboutContent .aboutImage {
+  width: 100%;
+  height: 80vh;
+  flex: 1;
+}
+body main .about .aboutContent .aboutImage img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+body main .about .aboutContent .aboutDetails {
+  width: 100%;
+  flex: 1;
+  padding-left: 2rem;
+}
+body main .about .aboutContent .aboutDetails .title {
+  color: #f14d5d;
+  font-size: 20px;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  border-bottom: 2px dashed #f14d5d;
+}
+body main .about .aboutContent .aboutDetails .sectionHeading {
+  color: #120f2d;
+  font-size: 42px;
+  font-weight: 700;
+  text-transform: capitalize;
+  letter-spacing: 3px;
+  margin: 1rem 0;
+}
+body main .about .aboutContent .aboutDetails .description {
+  color: rgba(24, 24, 24, 0.6901960784);
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: 1px;
+}
+body main .about .aboutContent .aboutDetails .couresesDetails {
+  display: flex;
+  margin-top: 2rem;
+}
+body main .about .aboutContent .aboutDetails .couresesDetails .detail {
+  background-color: #28a745;
+  color: #ffffff;
+  padding: 2rem;
+}
+body main .about .aboutContent .aboutDetails .couresesDetails .detail h1 {
+  font-size: 33.6px;
+  background: none;
+}
+body main .about .aboutContent .aboutDetails .couresesDetails .detail p {
+  font-weight: 500;
+  background: none;
+  text-transform: uppercase;
+}
+body main .about .aboutContent .aboutDetails .couresesDetails :nth-child(2) {
+  background-color: #276ed7;
+}
+body main .about .aboutContent .aboutDetails .couresesDetails :nth-child(3) {
+  background-color: #f14d5d;
+}
+body main .about .aboutContent .aboutDetails .couresesDetails :nth-child(4) {
+  background-color: #ffc107;
 }/*# sourceMappingURL=styles.css.map */
