@@ -358,10 +358,12 @@ body {
                 justify-content: center;
                 gap: 1.5rem;
                 padding: 1rem 3rem;
-
+                
                 .card {
                     width: 300px;
                     position: relative;
+                    border-radius: 4px;
+                    overflow: hidden;
                     cursor: pointer;
 
 
