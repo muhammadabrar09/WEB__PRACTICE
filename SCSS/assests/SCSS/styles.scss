@@ -275,6 +275,49 @@ body {
 
                     p {
                         @include sectionDescription;
+                        font-size: $font-small + 4;
+                    }
+
+                    .aboutContentContainer {
+                        margin-top: 1rem;
+
+                        .detailsCol {
+                            display: flex;
+                            margin-bottom: 1rem;
+
+                            .icon {
+                                display: flex;
+                                align-items: center;
+                                margin-right: 1rem;
+
+                                i {
+                                    background-color: $color-skyBlue;
+                                    color: $color-White;
+                                    font-size: $font-large * 1.2;
+                                    padding: 1.3rem;
+                                }
+
+                                .certificateIcon {
+                                    background-color: $color-lightRed;
+                                }
+
+                                .classesIcon{
+                                    background-color: $color-Yellow;
+                                }
+                            }
+                            .aboutContent {
+                                display: flex;
+                                flex-direction: column;
+
+                                h2 {
+                                    font-size: $font-large;
+                                    color: $color-darkBlue;
+                                }
+                                p{
+                                    font-size: $font-small + 2;
+                                }
+                            }
+                        }
                     }
                 }
 

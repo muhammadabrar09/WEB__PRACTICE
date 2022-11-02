@@ -27,7 +27,7 @@ body header {
   z-index: 100;
 }
 body header .header__top {
-  background-color: #120f2d;
+  background-color: #1c174d;
   color: #ffffff;
   display: flex;
   justify-content: space-between;
@@ -79,7 +79,7 @@ body header nav .navItems ul {
   gap: 1rem;
 }
 body header nav .navItems ul li a {
-  color: #120f2d;
+  color: #1c174d;
 }
 body header nav .navItems ul li a:hover {
   border-bottom: 2px solid #276ed7;
@@ -216,7 +216,7 @@ body main .about .aboutContent .aboutDetails .title {
   border-bottom: 2px dashed #f14d5d;
 }
 body main .about .aboutContent .aboutDetails .sectionHeading {
-  color: #120f2d;
+  color: #1c174d;
   font-size: 42px;
   font-weight: 700;
   text-transform: capitalize;
@@ -280,7 +280,7 @@ body main .whyUs .content .contentDetails span {
   border-bottom: 2px dashed #f14d5d;
 }
 body main .whyUs .content .contentDetails h1 {
-  color: #120f2d;
+  color: #1c174d;
   font-size: 42px;
   font-weight: 700;
   text-transform: capitalize;
@@ -292,6 +292,42 @@ body main .whyUs .content .contentDetails p {
   font-size: 18px;
   font-weight: 400;
   letter-spacing: 1px;
+  font-size: 17px;
+}
+body main .whyUs .content .contentDetails .aboutContentContainer {
+  margin-top: 1rem;
+}
+body main .whyUs .content .contentDetails .aboutContentContainer .detailsCol {
+  display: flex;
+  margin-bottom: 1rem;
+}
+body main .whyUs .content .contentDetails .aboutContentContainer .detailsCol .icon {
+  display: flex;
+  align-items: center;
+  margin-right: 1rem;
+}
+body main .whyUs .content .contentDetails .aboutContentContainer .detailsCol .icon i {
+  background-color: #276ed7;
+  color: #ffffff;
+  font-size: 26.4px;
+  padding: 1.3rem;
+}
+body main .whyUs .content .contentDetails .aboutContentContainer .detailsCol .icon .certificateIcon {
+  background-color: #f14d5d;
+}
+body main .whyUs .content .contentDetails .aboutContentContainer .detailsCol .icon .classesIcon {
+  background-color: #ffc107;
+}
+body main .whyUs .content .contentDetails .aboutContentContainer .detailsCol .aboutContent {
+  display: flex;
+  flex-direction: column;
+}
+body main .whyUs .content .contentDetails .aboutContentContainer .detailsCol .aboutContent h2 {
+  font-size: 22px;
+  color: #1c174d;
+}
+body main .whyUs .content .contentDetails .aboutContentContainer .detailsCol .aboutContent p {
+  font-size: 15px;
 }
 body main .whyUs .content .image {
   width: 100%;
