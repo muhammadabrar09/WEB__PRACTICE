@@ -114,7 +114,8 @@ body main {
 }
 body main .hero {
   width: 100%;
-  height: calc(100vh - 100px);
+  width: 100%;
+  height: 100vh;
   background: url(../images/hero.jpg) no-repeat center center/cover;
 }
 body main .hero .heroContent {
@@ -181,11 +182,14 @@ body main .hero .heroContent form button:hover {
 }
 body main .about {
   width: 100%;
-  height: calc(100vh - 100px);
+  height: 100vh;
+  margin: 2rem 0;
 }
 body main .about .aboutContent {
+  width: 100%;
+  height: 100%;
   display: flex;
-  padding: 2rem 4rem;
+  padding: 6rem 5rem;
 }
 body main .about .aboutContent .aboutImage {
   width: 100%;
@@ -251,4 +255,51 @@ body main .about .aboutContent .aboutDetails .couresesDetails :nth-child(3) {
 }
 body main .about .aboutContent .aboutDetails .couresesDetails :nth-child(4) {
   background-color: #ffc107;
+}
+body main .whyUs {
+  width: 100%;
+  height: 100vh;
+}
+body main .whyUs .content {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  padding: 6rem 5rem;
+}
+body main .whyUs .content .contentDetails {
+  width: 100%;
+  flex: 1;
+}
+body main .whyUs .content .contentDetails span {
+  color: #f14d5d;
+  font-size: 20px;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  border-bottom: 2px dashed #f14d5d;
+}
+body main .whyUs .content .contentDetails h1 {
+  color: #120f2d;
+  font-size: 42px;
+  font-weight: 700;
+  text-transform: capitalize;
+  letter-spacing: 3px;
+  margin: 1rem 0;
+}
+body main .whyUs .content .contentDetails p {
+  color: rgba(24, 24, 24, 0.6901960784);
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: 1px;
+}
+body main .whyUs .content .image {
+  width: 100%;
+  height: 85vh;
+  flex: 1;
+}
+body main .whyUs .content .image img {
+  width: 100%;
+  height: 100%;
+  padding: 0 4rem;
 }/*# sourceMappingURL=styles.css.map */

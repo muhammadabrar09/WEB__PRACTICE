@@ -82,7 +82,7 @@ $font-bold: 700;
 
 @mixin section {
     width: 100%;
-    height: calc(100vh - 100px);
+    height: 100vh;
 }
 
 @mixin sectionTitle {
