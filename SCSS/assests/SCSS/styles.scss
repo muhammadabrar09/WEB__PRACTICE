@@ -504,7 +504,7 @@ body {
                     width: 300px;
                     border-radius: 4px;
                     overflow: hidden;
-                    background-color: #ECF4FF;
+                    background-color: #ecf4ff;
 
                     img {
                         width: 100%;
@@ -520,7 +520,7 @@ body {
                         .socialMedia {
                             padding: 1rem 0;
                             i {
-                                padding-right: .5rem;
+                                padding-right: 0.5rem;
                                 color: $color-skyBlue;
                                 font-size: $font-large;
                             }
@@ -531,8 +531,34 @@ body {
         }
 
         // Testimonials Section
-        .testimonials{
+        .testimonials {
             @include section;
+
+            .testiContent {
+                display: flex;
+                padding: 2rem * 3;
+
+                .left {
+                    flex: 1;
+
+                    .title {
+                        @include sectionTitle;
+                        display: inline-flex;
+                    }
+
+                    .heading {
+                        @include sectionHeading;
+                    }
+
+                    .description {
+                        @include sectionDescription;
+                    }
+                }
+
+                .right{
+                    flex: 2;
+                }
+            }
         }
     }
 }
