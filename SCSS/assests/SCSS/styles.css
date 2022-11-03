@@ -614,10 +614,10 @@ body main .testimonials .testiContent .left .description {
   letter-spacing: 1px;
 }
 body main .testimonials .testiContent .right {
-  flex: 2;
   display: flex;
   justify-content: center;
   align-items: center;
+  flex: 2;
   padding-left: 5rem;
 }
 body main .testimonials .testiContent .right .testiCard {
@@ -632,4 +632,13 @@ body main .testimonials .testiContent .right .testiCard i {
 }
 body main .testimonials .testiContent .right .testiCard .testiImage {
   margin-top: 2rem;
+  display: flex;
+  gap: 2rem;
+}
+body main .testimonials .testiContent .right .testiCard .testiImage img {
+  width: 100px;
+}
+body main .testimonials .testiContent .right .testiCard .testiImage .stdName .name {
+  color: #000000;
+  font-weight: 700;
 }/*# sourceMappingURL=styles.css.map */

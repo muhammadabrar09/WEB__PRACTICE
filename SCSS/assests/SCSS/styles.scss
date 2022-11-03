@@ -555,26 +555,39 @@ body {
                     }
                 }
 
-                .right{
-                    flex: 2;
+                .right {
                     display: flex;
                     justify-content: center;
                     align-items: center;
+                    flex: 2;
                     padding-left: 5rem;
 
-                    .testiCard{
+                    .testiCard {
                         width: 500px;
                         box-shadow: 0px 1px 20px $color-Black;
                         padding: 1rem;
 
-                        i{
+                        i {
                             font-size: $font-large * 2;
                             color: $color-skyBlue;
                             margin-bottom: 2rem;
                         }
-                        
-                        .testiImage{
+
+                        .testiImage {
                             margin-top: 2rem;
+                            display: flex;
+                            gap: 2rem;
+
+                            img {
+                                width: 100px;
+                            }
+
+                            .stdName {
+                                .name{
+                                    color: $color-pureBlack;
+                                    font-weight: $font-bold;
+                                }
+                            }
                         }
                     }
                 }
