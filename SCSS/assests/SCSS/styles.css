@@ -459,11 +459,70 @@ body main .courseSelection {
 }
 body main .courseSelection .heading {
   text-align: center;
-  margin-bottom: 2rem;
   color: #1c174d;
   font-size: 42px;
   font-weight: 700;
   text-transform: capitalize;
   letter-spacing: 3px;
   margin: 1rem 0;
+  margin-bottom: 5rem;
+}
+body main .courseSelection form {
+  width: 500px;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+  padding: 2rem 1rem;
+  box-shadow: 0px 1px 3px rgba(24, 24, 24, 0.6901960784);
+}
+body main .courseSelection form input {
+  width: 350px;
+  background-color: #ffffff;
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+  text-transform: capitalize;
+  border: 1px solid #000000;
+  outline: none;
+  color: rgba(24, 24, 24, 0.6901960784);
+  border-radius: 5px;
+  padding: 0.4rem 0.8rem;
+  cursor: pointer;
+  width: 100%;
+}
+body main .courseSelection form select {
+  width: 350px;
+  background-color: #ffffff;
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+  text-transform: capitalize;
+  border: 1px solid #000000;
+  outline: none;
+  color: rgba(24, 24, 24, 0.6901960784);
+  border-radius: 5px;
+  padding: 0.4rem 0.8rem;
+  cursor: pointer;
+  width: 100%;
+}
+body main .courseSelection form #btn {
+  background-color: #1c174d;
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+  text-transform: capitalize;
+  border: 1px solid #000000;
+  color: #ffffff;
+  border-radius: 5px;
+  padding: 0.4rem 0.8rem;
+  cursor: pointer;
+}
+body main .courseSelection form #btn:hover {
+  background-color: #ffffff;
+  color: #1c174d;
+}
+body main .courseSelection form #btn:hover {
+  background-color: #276ed7;
+  color: #ffffff;
 }/*# sourceMappingURL=styles.css.map */
