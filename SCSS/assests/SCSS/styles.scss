@@ -557,6 +557,26 @@ body {
 
                 .right{
                     flex: 2;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    padding-left: 5rem;
+
+                    .testiCard{
+                        width: 500px;
+                        box-shadow: 0px 1px 20px $color-Black;
+                        padding: 1rem;
+
+                        i{
+                            font-size: $font-large * 2;
+                            color: $color-skyBlue;
+                            margin-bottom: 2rem;
+                        }
+                        
+                        .testiImage{
+                            margin-top: 2rem;
+                        }
+                    }
                 }
             }
         }

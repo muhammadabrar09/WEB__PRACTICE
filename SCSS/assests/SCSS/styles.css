@@ -615,4 +615,21 @@ body main .testimonials .testiContent .left .description {
 }
 body main .testimonials .testiContent .right {
   flex: 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 5rem;
+}
+body main .testimonials .testiContent .right .testiCard {
+  width: 500px;
+  box-shadow: 0px 1px 20px rgba(24, 24, 24, 0.6901960784);
+  padding: 1rem;
+}
+body main .testimonials .testiContent .right .testiCard i {
+  font-size: 44px;
+  color: #276ed7;
+  margin-bottom: 2rem;
+}
+body main .testimonials .testiContent .right .testiCard .testiImage {
+  margin-top: 2rem;
 }/*# sourceMappingURL=styles.css.map */
