@@ -533,7 +533,7 @@ body main .ourInstructors {
 }
 body main .ourInstructors .sectionHeading {
   text-align: center;
-  margin-bottom: 5rem;
+  margin-bottom: 3rem;
 }
 body main .ourInstructors .sectionHeading .title {
   color: #f14d5d;
@@ -550,4 +550,30 @@ body main .ourInstructors .sectionHeading .heading {
   text-transform: capitalize;
   letter-spacing: 3px;
   margin: 1rem 0;
+}
+body main .ourInstructors .instructorData {
+  padding: 0 3rem;
+}
+body main .ourInstructors .instructorData .instructorCard {
+  width: 300px;
+  border-radius: 4px;
+  overflow: hidden;
+  background-color: #ECF4FF;
+}
+body main .ourInstructors .instructorData .instructorCard img {
+  width: 100%;
+}
+body main .ourInstructors .instructorData .instructorCard .instructorInfo {
+  text-align: center;
+}
+body main .ourInstructors .instructorData .instructorCard .instructorInfo h1 {
+  color: #1c174d;
+}
+body main .ourInstructors .instructorData .instructorCard .instructorInfo .socialMedia {
+  padding: 1rem 0;
+}
+body main .ourInstructors .instructorData .instructorCard .instructorInfo .socialMedia i {
+  padding-right: 0.5rem;
+  color: #276ed7;
+  font-size: 22px;
 }/*# sourceMappingURL=styles.css.map */

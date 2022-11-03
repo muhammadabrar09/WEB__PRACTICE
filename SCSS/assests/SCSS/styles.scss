@@ -484,7 +484,7 @@ body {
 
             .sectionHeading {
                 text-align: center;
-                margin-bottom: 5rem;
+                margin-bottom: 3rem;
 
                 .title {
                     @include sectionTitle;
@@ -492,6 +492,38 @@ body {
 
                 .heading {
                     @include sectionHeading;
+                }
+            }
+
+            .instructorData {
+                padding: 0 3rem;
+
+                .instructorCard {
+                    width: 300px;
+                    border-radius: 4px;
+                    overflow: hidden;
+                    background-color: #ECF4FF;
+
+                    img {
+                        width: 100%;
+                    }
+
+                    .instructorInfo {
+                        text-align: center;
+
+                        h1 {
+                            color: $color-darkBlue;
+                        }
+
+                        .socialMedia {
+                            padding: 1rem 0;
+                            i {
+                                padding-right: .5rem;
+                                color: $color-skyBlue;
+                                font-size: $font-large;
+                            }
+                        }
+                    }
                 }
             }
         }
