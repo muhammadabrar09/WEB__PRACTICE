@@ -529,5 +529,10 @@ body {
                 }
             }
         }
+
+        // Testimonials Section
+        .testimonials{
+            @include section;
+        }
     }
 }

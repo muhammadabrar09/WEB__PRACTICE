@@ -578,4 +578,8 @@ body main .ourInstructors .instructorData .instructorCard .instructorInfo .socia
   padding-right: 0.5rem;
   color: #276ed7;
   font-size: 22px;
+}
+body main .testimonials {
+  width: 100%;
+  height: 100vh;
 }/*# sourceMappingURL=styles.css.map */
