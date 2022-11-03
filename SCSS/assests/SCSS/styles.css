@@ -552,6 +552,9 @@ body main .ourInstructors .sectionHeading .heading {
   margin: 1rem 0;
 }
 body main .ourInstructors .instructorData {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
   padding: 0 3rem;
 }
 body main .ourInstructors .instructorData .instructorCard {
