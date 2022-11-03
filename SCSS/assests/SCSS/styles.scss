@@ -460,10 +460,10 @@ body {
                     @include inputStyle;
                     width: 100%;
                 }
-                
-                select{
+
+                select {
                     @include inputStyle;
-                    width: 100% ;
+                    width: 100%;
                 }
 
                 #btn {
@@ -473,6 +473,25 @@ body {
                         background-color: $color-skyBlue;
                         color: $color-White;
                     }
+                }
+            }
+        }
+
+        // Our Instructor Section
+        .ourInstructors {
+            @include section;
+            padding-top: 2rem * 3;
+
+            .sectionHeading {
+                text-align: center;
+                margin-bottom: 5rem;
+
+                .title {
+                    @include sectionTitle;
+                }
+
+                .heading {
+                    @include sectionHeading;
                 }
             }
         }
