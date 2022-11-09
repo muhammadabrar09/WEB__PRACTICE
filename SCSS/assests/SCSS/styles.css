@@ -654,14 +654,13 @@ body main .contact .contactContent {
 body main .contact .contactContent .left {
   flex: 1.5;
   background-color: #ecf4ff;
-  border: 1px solid red;
 }
 body main .contact .contactContent .left .leftContent {
   padding: 2rem;
 }
 body main .contact .contactContent .left .leftContent .details {
   display: flex;
-  margin-bottom: 4rem;
+  margin: 2rem;
 }
 body main .contact .contactContent .left .leftContent .details h2 {
   color: #000000;
@@ -686,5 +685,4 @@ body main .contact .contactContent .left .leftContent .details .icon .email {
 }
 body main .contact .contactContent .right {
   flex: 2;
-  border: 1px solid red;
 }/*# sourceMappingURL=styles.css.map */
