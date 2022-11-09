@@ -657,10 +657,28 @@ body main .contact .contactContent .left {
   border: 1px solid red;
 }
 body main .contact .contactContent .left .leftContent {
-  padding: 2rem 3rem;
+  padding: 2rem;
 }
 body main .contact .contactContent .left .leftContent .details {
   display: flex;
+  margin-bottom: 1rem;
+}
+body main .contact .contactContent .left .leftContent .details .icon {
+  display: flex;
+  align-items: center;
+  margin-right: 1rem;
+}
+body main .contact .contactContent .left .leftContent .details .icon i {
+  background-color: #276ed7;
+  color: #ffffff;
+  font-size: 26.4px;
+  padding: 1.3rem;
+}
+body main .contact .contactContent .left .leftContent .details .icon .callUs {
+  background-color: #f14d5d;
+}
+body main .contact .contactContent .left .leftContent .details .icon .email {
+  background-color: #ffc107;
 }
 body main .contact .contactContent .right {
   flex: 2;

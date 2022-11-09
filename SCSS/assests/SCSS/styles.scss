@@ -608,13 +608,37 @@ body {
                     background-color: #ecf4ff;
                     border: 1px solid red;
 
-                    .leftContent{
-                        padding: 2rem 3rem;
-                        .details{
+                    .leftContent {
+                        padding: 2rem;
+
+                        .details {
                             display: flex;
+                            margin-bottom: 1rem;
+
+                            .icon {
+                                display: flex;
+                                align-items: center;
+                                margin-right: 1rem;
+
+                                i {
+                                    background-color: $color-skyBlue;
+                                    color: $color-White;
+                                    font-size: $font-large * 1.2;
+                                    padding: 1.3rem;
+                                }
+
+                                .callUs {
+                                    background-color: $color-lightRed;
+                                }
+
+                                .email {
+                                    background-color: $color-Yellow;
+                                }
+                            }
                         }
                     }
                 }
+
                 .right {
                     flex: 2;
                     border: 1px solid red;
