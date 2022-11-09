@@ -613,17 +613,22 @@ body {
 
                         .details {
                             display: flex;
-                            margin-bottom: 1rem;
+                            margin-bottom: 4rem;
+
+                            h2 {
+                                color: $color-pureBlack;
+                                letter-spacing: 2px;
+                            }
 
                             .icon {
                                 display: flex;
                                 align-items: center;
-                                margin-right: 1rem;
+                                margin-right: 2rem;
 
                                 i {
                                     background-color: $color-skyBlue;
                                     color: $color-White;
-                                    font-size: $font-large * 1.2;
+                                    font-size: $font-large * 2;
                                     padding: 1.3rem;
                                 }
 

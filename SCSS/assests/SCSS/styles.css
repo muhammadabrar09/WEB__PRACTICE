@@ -661,17 +661,21 @@ body main .contact .contactContent .left .leftContent {
 }
 body main .contact .contactContent .left .leftContent .details {
   display: flex;
-  margin-bottom: 1rem;
+  margin-bottom: 4rem;
+}
+body main .contact .contactContent .left .leftContent .details h2 {
+  color: #000000;
+  letter-spacing: 2px;
 }
 body main .contact .contactContent .left .leftContent .details .icon {
   display: flex;
   align-items: center;
-  margin-right: 1rem;
+  margin-right: 2rem;
 }
 body main .contact .contactContent .left .leftContent .details .icon i {
   background-color: #276ed7;
   color: #ffffff;
-  font-size: 26.4px;
+  font-size: 44px;
   padding: 1.3rem;
 }
 body main .contact .contactContent .left .leftContent .details .icon .callUs {
