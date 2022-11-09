@@ -641,4 +641,28 @@ body main .testimonials .testiContent .right .testiCard .testiImage img {
 body main .testimonials .testiContent .right .testiCard .testiImage .stdName .name {
   color: #000000;
   font-weight: 700;
+}
+body main .contact {
+  width: 100%;
+  height: 100vh;
+  padding-top: 3rem;
+}
+body main .contact .contactContent {
+  display: flex;
+  padding: 6rem;
+}
+body main .contact .contactContent .left {
+  flex: 1.5;
+  background-color: #ecf4ff;
+  border: 1px solid red;
+}
+body main .contact .contactContent .left .leftContent {
+  padding: 2rem 3rem;
+}
+body main .contact .contactContent .left .leftContent .details {
+  display: flex;
+}
+body main .contact .contactContent .right {
+  flex: 2;
+  border: 1px solid red;
 }/*# sourceMappingURL=styles.css.map */

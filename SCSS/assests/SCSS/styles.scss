@@ -583,7 +583,7 @@ body {
                             }
 
                             .stdName {
-                                .name{
+                                .name {
                                     color: $color-pureBlack;
                                     font-weight: $font-bold;
                                 }
@@ -594,6 +594,32 @@ body {
             }
         }
 
-        
+        // Contact Section
+        .contact {
+            @include section;
+            padding-top: 2rem * 1.5;
+
+            .contactContent {
+                display: flex;
+                padding: (2rem) * 3;
+
+                .left {
+                    flex: 1.5;
+                    background-color: #ecf4ff;
+                    border: 1px solid red;
+
+                    .leftContent{
+                        padding: 2rem 3rem;
+                        .details{
+                            display: flex;
+                        }
+                    }
+                }
+                .right {
+                    flex: 2;
+                    border: 1px solid red;
+                }
+            }
+        }
     }
 }
